@@ -1,0 +1,17 @@
+# Build outputs
+dist/app
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Editor and OS files
+.vscode/
+.DS_Store
+*.swp
+
+# Python artifacts
+python/
+__pycache__/
+*.py[cod]
