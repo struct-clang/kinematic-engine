@@ -9,7 +9,7 @@ int main() {
     ball.v0z = 10;
 
     ball.x0 = 0;
-    ball.y0 = -10;
+    ball.y0 = 0;
     ball.z0 = 0;
 
     ball.ax = 0;
