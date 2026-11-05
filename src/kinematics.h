@@ -4,25 +4,12 @@
 #include <math.h>
 
 typedef struct {
-    double v0x;
-    double v0y;
-    double v0z;
-
-    double x0;
-    double y0;
-    double z0;
-
-    double ax;
-    double ay;
-    double az;
-
-    double x;
-    double y;
-    double z;
-
-    double vx;
-    double vy;
-    double vz;
+    double v0x, v0y, v0z;
+    double x0, y0, z0;
+    double ax, ay, az;
+    
+    double x, y, z;
+    double vx, vy, vz;
 } Body;
 
 typedef enum {
